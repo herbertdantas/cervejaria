@@ -1,0 +1,124 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+        
+        h1{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        body{
+            font-family: 'Raleway', sans-serif;
+            background-color: #000000D6;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+        }
+
+        .maior{
+            padding-top: 10px;
+            background-color: #CA7900;
+            width: 70%;
+            height: 80px;
+            text-align: center;
+            border-radius: 20px;
+            margin-bottom: 50px;
+
+        }
+
+        .maior input{
+            padding-top:5px ;
+            padding-bottom:5px ;
+            color: white;
+            background-color: #CA7900;
+            width: 100px;
+            border: 3px solid white;
+            font-size: 15px;
+            margin-right: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            
+        }
+
+        img{
+            position: relative;
+            width: 100px;
+            margin-bottom: -10px;
+            
+        }
+
+        header{
+            display: flex;
+            background-color: #CA7900;
+            width: 100%;
+            height: 110px ;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+
+        #navegacao{
+            width: 55%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+            
+        }
+
+        #navegacao a{
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 50px;
+        }
+        #button{
+            background: none;
+            border: none;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            font-weight: bold;
+            font-family: 'Raleway', sans-serif;
+            margin-right: 80px;
+
+        }
+
+        .meio{
+            
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .card {
+         
+         text-align: center;
+         
+        }
+
+        .imagens img{
+            width: 55%;
+        }
+                  
+        
+        .card button{
+            background-color: #CA7900;
+            font-size: 15px;
+            color: white;
+            padding: 8px;
+            border-radius: 10px;
+            border: 5px solid white;
+            font-weight: bold;
+            width: 150px;
+            cursor: pointer;
+            margin-top: 30px;
+
+        }
+
+        .card p{
+            margin-top: 30px;
+
+        }

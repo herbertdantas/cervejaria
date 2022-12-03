@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+        
+        h1{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        body{
+            font-family: 'Raleway', sans-serif;;
+            background-color: #000000D6;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+
+        .maior{
+            background-color: #CA7900;
+            width: 70%;
+            height: 110px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .maior input{
+            padding-top:5px ;
+            padding-bottom:5px ;
+            color: white;
+            background-color: #CA7900;
+            width: 100px;
+            border: 3px solid white;
+            font-size: 15px;
+            margin-right: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        img{
+            position: relative;
+            width: 100px;
+            margin-bottom: -10px;
+            
+        }
